@@ -30,7 +30,7 @@
                                             <constraint firstAttribute="width" constant="32" id="9cg-4r-tLF"/>
                                             <constraint firstAttribute="height" constant="32" id="bUj-TT-IpO"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                         <state key="normal" title="＋"/>
                                         <connections>
                                             <action selector="plusButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LYV-pT-pkv"/>
@@ -52,6 +52,11 @@
                             <constraint firstItem="IaX-r7-h0d" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="vWJ-OD-XOv"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="navBarHeightConstraint" destination="bza-nF-fGD" id="FCz-9s-jCp"/>
+                        <outlet property="navBarView" destination="IaX-r7-h0d" id="NLC-fW-LA6"/>
+                        <outlet property="plusButton" destination="izr-yT-IkF" id="daL-Wf-O3z"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
